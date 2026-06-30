@@ -20,7 +20,7 @@ export default function Contact(){
 
     try {
       const response = await fetch(
-        "http://gardening.inorbitservices.ca/gardening/contact",
+        "http://api.inorbitservices.ca/gardening/contact",
         {
           method: "POST",
           headers: {
